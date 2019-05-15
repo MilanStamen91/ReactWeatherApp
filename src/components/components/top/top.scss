@@ -1,0 +1,75 @@
+.top-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oxygen', sans-serif;
+    align-items: center;
+    background-color: #2a86e7; 
+    height: 100%;
+    width: 100%;
+    
+    .title {
+        font-size: 26px;
+        color: white;
+        margin-top: 20px;
+    }
+}
+
+.btn-select-location {
+    height: 35px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    background-color: #0abde3;
+    color: white;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        background-color: #3498db; 
+    }
+}
+
+.form-container {
+    input {
+        position: relative;
+        text-align: center;
+        left: 30px;
+        height: 30px;;
+        top: 5px;
+        font-size: 14px;
+        font-family: Roboto, sans-serif;
+    }
+    
+    label {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 30px;
+        font-family: Roboto, sans-serif;   
+    }
+    
+    button {
+        position: relative;
+        left: 90px;
+        top: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+        max-width: 100%;
+        border: 1px solid #ddd;
+        background-color: #0ae34b;
+        color: white;
+        font-size: 14px;
+        font-family: Roboto, sans-serif;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
